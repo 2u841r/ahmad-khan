@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Ahmad Khan"
-  text: "Ahman Khan Articles"
+  # text: "Ahman Khan Articles"
   tagline: Ahmad Khan Articles collection
   actions:
     - theme: brand

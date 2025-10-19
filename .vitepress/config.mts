@@ -7,8 +7,11 @@ export default defineConfig({
   cleanUrls: true,
   
   title: "Ahmad Khan",
-  description: "Ahmad Khan Articles",
+  // description: "Ahmad Khan Articles",
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
