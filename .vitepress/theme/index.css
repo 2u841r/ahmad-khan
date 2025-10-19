@@ -6,3 +6,15 @@
 .VPFooter {
   display: block !important;
 }
+
+@font-face {
+  font-family: "SolaimanLipi";
+  src: url("/articles/files/SolaimanLipiNormal.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "SolaimanLipi", sans-serif;
+}

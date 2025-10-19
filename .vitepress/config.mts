@@ -34,5 +34,20 @@ export default defineConfig({
       message: 'Copyright © 2019-present <strong> Ahmad Khan</strong>',
       copyright: 'Developed by Zubair'
     }
+  },
+  transformHead() {
+    return [
+      [
+        'link',
+        {
+          rel: 'preload',
+          href: '/articles/files/SolaimanLipiNormal.woff2',
+          as: 'font',
+          type: 'font/woff2',
+          crossorigin: ''
+        }
+      ]
+    ]
   }
+
 })
