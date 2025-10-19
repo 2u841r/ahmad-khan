@@ -9,12 +9,17 @@ export default defineConfig({
   title: "Ahmad Khan",
   // description: "Ahmad Khan Articles",
   themeConfig: {
+    sidebarMenuLabel: 'সূচীপত্র',
+    docFooter: {
+      prev: 'পূর্ববর্তী পাতা',
+      next: 'পরবর্তী পাতা'
+    },
     search: {
       provider: 'local'
     },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
+      { text: 'Homepage', link: '/' },
       { text: 'About', link: '/about' },
       // { text: 'Examples', link: '/markdown-examples' }
     ],
@@ -22,11 +27,11 @@ export default defineConfig({
     sidebar: generateSidebar(),
 
     socialLinks: [
-      { icon: 'telegram', link: 'https://t.me/akwritings' },
+      { icon: 'telegram', link: 'https://dub.sh/akwritings' },
 
     ],
     footer: {
-      copyright: 'Copyright © 2019-present <a href="https://t.me/akwritings">Ahmad Khan</a>'
+      copyright: 'Copyright © 2019-present <a href="https://dub.sh/akwritings">Ahmad Khan</a>'
     }
   }
 })

@@ -5,6 +5,6 @@ next: false
 
 ### About
 
-Copyright: [Ahmad Khan](https://t.me/akwritings)
+Copyright: [Ahmad Khan](https://dub.sh/akwritings)
 
 Developed By: Zubair
