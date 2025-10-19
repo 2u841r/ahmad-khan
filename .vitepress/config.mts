@@ -31,7 +31,8 @@ export default defineConfig({
 
     ],
     footer: {
-      copyright: 'Copyright © 2019-present <a href="https://dub.sh/akwritings">Ahmad Khan</a>'
+      message: 'Copyright © 2019-present <strong> Ahmad Khan</strong>',
+      copyright: 'Developed by Zubair'
     }
   }
 })

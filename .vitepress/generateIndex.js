@@ -11,6 +11,8 @@ function generateMarkdownIndex() {
   let md = `---
 aside: false
 ---
+# Ahmad Khan Articles
+
 ## সূচীপত্র
 
 `;

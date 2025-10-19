@@ -2,3 +2,7 @@
 .VPLocalNavOutlineDropdown {
   display: none !important;
 }
+
+.VPFooter {
+  display: block !important;
+}
