@@ -5,7 +5,7 @@ import { generateSidebar } from './sidebar.mts'
 export default defineConfig({
   srcDir: "articles",
   cleanUrls: true,
-  
+
   title: "Ahmad Khan",
   // description: "Ahmad Khan Articles",
   themeConfig: {
@@ -15,6 +15,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'About', link: '/about' },
       // { text: 'Examples', link: '/markdown-examples' }
     ],
 
@@ -22,7 +23,7 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'telegram', link: 'https://t.me/akwritings' },
-    
+
     ],
     footer: {
       copyright: 'Copyright © 2019-present <a href="https://t.me/akwritings">Ahmad Khan</a>'

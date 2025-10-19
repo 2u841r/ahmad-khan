@@ -1,0 +1,8 @@
+/* Hide the "Return to top" button */
+.VPLocalNavOutlineDropdown {
+  display: none !important;
+}
+
+h2 {
+  /* background-color: red; */
+}
