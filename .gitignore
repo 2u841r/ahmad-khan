@@ -1,2 +1,8 @@
 node_modules
-.vitepress
+
+# VitePress build outputs and cache
+.vitepress/dist
+.vitepress/cache
+
+# Local Netlify folder
+.netlify

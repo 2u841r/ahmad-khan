@@ -1,0 +1,17 @@
+[build]
+  # Build command
+  command = "pnpm run build"
+  
+  # Publish directory (where VitePress outputs the built site)
+  publish = ".vitepress/dist"
+
+# Enable clean URLs (removes .html extension)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Optional: Set Node version
+[build.environment]
+  NODE_VERSION = "18"
+
