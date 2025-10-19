@@ -41,7 +41,7 @@ export default defineConfig({
         'link',
         {
           rel: 'preload',
-          href: '/articles/files/SolaimanLipiNormal.woff2',
+          href: '/fonts/SolaimanLipiNormal.woff2',
           as: 'font',
           type: 'font/woff2',
           crossorigin: ''
