@@ -11,7 +11,7 @@
   to = "/index.html"
   status = 200
 
-# Optional: Set Node version
+# Set Node version (required for VitePress 2.0 alpha)
 [build.environment]
-  NODE_VERSION = "18"
+  NODE_VERSION = "20"
 
