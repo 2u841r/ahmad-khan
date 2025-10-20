@@ -18,7 +18,8 @@ export default defineConfig({
       {},
       `window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
       plausible.init()`
-    ]
+    ],
+    ['link', { rel: 'icon', href: '/logo.jpg' }]
   ],
   themeConfig: {
     sidebarMenuLabel: 'সূচীপত্র',
@@ -37,6 +38,7 @@ export default defineConfig({
     // ],
 
     sidebar: generateSidebar(),
+    logo: './logo.jpg',
 
     socialLinks: [
       { icon: 'telegram', link: 'https://dub.sh/akwritings' },
