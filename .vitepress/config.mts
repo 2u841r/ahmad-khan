@@ -8,6 +8,18 @@ export default defineConfig({
 
   title: "Ahmad Khan",
   // description: "Ahmad Khan Articles",
+  head: [
+    [
+      'script',
+      { async: '', src: 'https://plausible.io/js/pa-xiMwpch86OpI12GIhodlI.js' }
+    ],
+    [
+      'script',
+      {},
+      `window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+      plausible.init()`
+    ]
+  ],
   themeConfig: {
     sidebarMenuLabel: 'সূচীপত্র',
     docFooter: {
