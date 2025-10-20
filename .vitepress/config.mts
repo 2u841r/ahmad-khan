@@ -30,11 +30,11 @@ export default defineConfig({
       provider: 'local'
     },
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Homepage', link: '/' },
-      { text: 'About', link: '/about' },
-      // { text: 'Examples', link: '/markdown-examples' }
-    ],
+    // nav: [
+    //   { text: 'Homepage', link: '/' },
+    //   { text: 'About', link: '/about' },
+    //   // { text: 'Examples', link: '/markdown-examples' }
+    // ],
 
     sidebar: generateSidebar(),
 
@@ -43,7 +43,7 @@ export default defineConfig({
 
     ],
     footer: {
-      message: 'Copyright © 2019-present <strong> Ahmad Khan</strong>',
+      message: 'Copyright © 2019-present <a href="https://dub.sh/akwritings"> <strong> Ahmad Khan</strong> </a>',
       copyright: 'Developed by Zubair'
     }
   },
