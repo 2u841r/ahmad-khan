@@ -9,6 +9,7 @@ export default defineConfig({
   title: "Ahmad Khan",
   // description: "Ahmad Khan Articles",
   head: [
+    ['meta', { name: 'description', content: 'Ahmad Khan Articles' }],
     [
       'script',
       { async: '', src: 'https://plausible.io/js/pa-xiMwpch86OpI12GIhodlI.js' }
