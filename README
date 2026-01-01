@@ -1,0 +1,10 @@
+1. Install Nodejs from https://nodejs.org/en/download
+
+2. Download and install pnpm:
+corepack enable pnpm
+# Verify pnpm version:
+pnpm -v
+
+3. run `pnpm install` command. 
+
+4. run `pnpm run dev` command. 
